@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--[if lte IE 9]><html dir="ltr" lang="en" class="layout ie9"><![endif]-->
+<!--[if gt IE 9]><html dir="ltr" lang="en" class="layout"><![endif]-->
+<!--[if !(IE)]><!--><html dir="ltr" lang="en" class="layout"><!--<![endif]-->
+    <head>
+        <title>The Movie Database</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="See list of popular movies">
+        <meta name="keywords" content="movies, popular, top">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <link rel="stylesheet" type="text/css" href="assets/css/jquery.mobile-1.4.5.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script src="assets/js/jquery.js"></script>
+        <script src="assets/js/jquery.mobile-1.4.5.min.js"></script>
+        <script src="assets/js/script.js"></script>
+    </head>
+    <body>
+        <div id="movie-list" class="movie-list-wrapper" data-role="page">
+            <div class="app-header" data-role="header">
+                <h1 class="page-title">Pop Movies</h1>
+            </div>
+            <div role="main" class="ui-content">
+                <div class="movie-poster-wrapper">
+                </div>
+            </div>
+            <div data-role="footer" class="list-footer"></div>
+        </div>
+        <div id="movie-desc" class="movie-desc-wrapper" data-role="page">
+            <div class="app-header" data-role="header">
+                <h1 class="page-title">MovieDetail</h1>
+            </div>
+            <div role="main" class="ui-content">
+                <div class="movie-detail-wrapper">
+                </div>
+            </div>
+            <div data-role="footer" class="desc-footer"></div>
+        </div>
+    </body>
+</html>
